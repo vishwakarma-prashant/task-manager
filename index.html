@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2424dd99d5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <section>
+          <h2>Task Manager</h2>
+          <img src="./images/task.png" alt="" />
+        </section>
+      </nav>
+      <div class="todo">
+        <div class="addNewtask">
+          <span>Add New Task</span>
+          <span><i class="fa-regular fa-square-plus"></i></span>
+        </div>
+
+        <div class="taskList">
+          <!-- <div class="task" id="223">
+            <h3 id="title">Task 2</h3>
+            <span id="dateAndTime">2023-01-01 05:00 AM</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+              sapiente! Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Est optio similique quaerat ab repudiandae tempore labore,
+              quam voluptate quod nam. Dolorem odit optio quod quisquam itaque
+              quasi, aperiam dignissimos voluptates!
+            </p>
+            <div class="options">
+              <i id="editTask" class="fa-regular fa-pen-to-square"></i>
+
+              <i id="delTask" class="fa-regular fa-square-minus"></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="overlay hidden">
+        <i id="btn-remove" class="fa-regular fa-circle-xmark"></i>
+        <div class="form">
+          <input
+            type="text"
+            placeholder="Enter Task Title........"
+            id="titleInp"
+            autocomplete="off"
+          />
+          <textarea
+            placeholder="Enter Task Description ........"
+            name=""
+            id="description"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="date" name="date" id="dateInp" />
+          <button id="add-btn">Add Task</button>
+          <button id="edit-btn" class="hidden">Done</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

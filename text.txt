@@ -1,0 +1,11 @@
+orange ==> #FFBB56
+
+pink ==> #ff7783
+
+blue ==> #2A84FF
+
+green ==> #8ED79F
+
+
+
+white ==> #F6FAFB
